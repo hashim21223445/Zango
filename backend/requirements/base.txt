@@ -1,4 +1,4 @@
-django==4.2.11
+django==4.2.27
 psycopg2-binary
 django-tenants
 djangorestframework
@@ -34,3 +34,4 @@ python3-saml==1.16.0
 django-ipware==7.0.1
 django-decorator-include==3.0
 setuptools==70.1.1
+sqlparse>=0.5.4 # not directly required, pinned by Snyk to avoid a vulnerability
